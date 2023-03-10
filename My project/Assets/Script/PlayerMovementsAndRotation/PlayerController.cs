@@ -1,7 +1,6 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
+
 
 public class PlayerController : MonoBehaviour
 {
@@ -155,26 +154,4 @@ public class PlayerController : MonoBehaviour
     {
         isDrop = true;
     }
-
-    //private IEnumerator InteractBool()
-    //{
-    //    isInteract = true;
-
-    //    if (isInteract)
-    //    {
-    //        yield return new WaitForSeconds(0.5f);
-    //        isInteract = false;
-    //    }
-    //}    
-    
-    //private IEnumerator DropBool()
-    //{
-    //    isDrop = true;
-
-    //    if (isDrop)
-    //    {
-    //        yield return new WaitForSeconds(0.5f);
-    //        isDrop = false;
-    //    }
-    //}
 }

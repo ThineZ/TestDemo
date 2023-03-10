@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Active: 1
   settings:
     passTag: ToMask2
-    Event: 300
+    Event: 250
     filterSettings:
       RenderQueueType: 0
       LayerMask:
@@ -100,7 +100,7 @@ MonoBehaviour:
       overrideCamera: 0
       restoreCamera: 1
       offset: {x: 0, y: 0, z: 0, w: 0}
-      cameraFieldOfView: 60
+      cameraFieldOfView: 41
 --- !u!114 &-208461584370997603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,7 +186,7 @@ MonoBehaviour:
     m_Bits: 1079
   m_TransparentLayerMask:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 55
   m_DefaultStencilState:
     overrideStencilState: 0
     stencilReference: 0
